@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Opcion1"
+        android:title="Ayuda">
+    </item>
+    <item
+        android:id="@+id/Opcion2"
+        android:title="Opcion 2">
+    </item>
+    <item
+        android:id="@+id/android"
+        android:title="Android">
+    </item>
+
+    <group
+        android:id="@+id/grupo1"
+        android:checkableBehavior="all"
+        android:menuCategory="container"
+        android:visible="true" >
+    </group>
+
+</menu>

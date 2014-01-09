@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lucky4all="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        lucky4all:showAsAction="never|ifRoom"
+        android:title="@string/action_settings"
+        android:titleCondensed="@string/abc_action_bar_home_description"/>
+    <item
+        android:id="@+id/opcion1"
+        lucky4all:showAsAction="always"
+        android:title="Opcion_1">
+    </item>
+    <item
+        android:id="@+id/opcion2"
+        lucky4all:showAsAction="always"
+        android:title="Opcion_2">
+    </item>
+
+</menu>

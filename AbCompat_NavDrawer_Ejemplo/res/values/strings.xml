@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AbCompat_Ejemplo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="fragment1">Este es el Fragment 1 :-)</string>
+    <string name="fragment2">Y aqui le he hemos dado al Fragment 2!! Wowwwww</string>
+    <string name="fragment3">Y hasta 3 fragments!! |o| Que artista!! XDD</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+</resources>

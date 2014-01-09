@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/context_op1" android:showAsAction="always" android:title="Context_op1"></item>
+    <item android:id="@+id/context_op2" android:showAsAction="always" android:titleCondensed="Context_op2"></item>
+    
+
+</menu>

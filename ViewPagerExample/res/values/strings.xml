@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ViewPagerExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Fragment1">Esta seria la seccion de Noticias Generales</string>
+    <string name="Fragments2">Esta seria la seccion de deportes</string>
+    <string name="Fragments3">Esta seria la seccion de Economia</string>
+    <string name="Toast1">OP1</string>
+    <string name="Toast2">OP2</string>
+
+</resources>
