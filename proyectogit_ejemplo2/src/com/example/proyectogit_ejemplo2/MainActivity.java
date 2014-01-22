@@ -12,7 +12,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 
 	Context mContext;
-	Button btn;
+	Button btn,btn2;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,7 @@ public class MainActivity extends Activity {
 		mContext = this;
 
 		btn = (Button) findViewById(R.id.button1);
+		btn2 = (Button) findViewById(R.id.button2);
 		btn.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 				Toast.makeText(mContext, "Mensaje Toast", Toast.LENGTH_LONG)
