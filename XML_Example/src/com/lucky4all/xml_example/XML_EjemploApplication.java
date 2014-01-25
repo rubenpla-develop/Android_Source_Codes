@@ -8,6 +8,7 @@ public class XML_EjemploApplication extends Application {
 
 	public void updateNoticias(ArrayAdapter<Publicacion> lvAdapter) {
 		AsyncConector conector = new AsyncConector(lvAdapter, URL);
+		conector.execute();
 	}
 
 }

@@ -1,16 +1,15 @@
 package com.lucky4all.xml_example;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
-public class MainActivity extends ActionBarActivity implements
-		OnItemClickListener {
+public class MainActivity extends Activity implements OnItemClickListener {
 
 	Context mContext;
 	private ListView lvNoticias;
