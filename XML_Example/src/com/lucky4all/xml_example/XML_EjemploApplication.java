@@ -7,7 +7,7 @@ public class XML_EjemploApplication extends Application {
 	private final static String URL = "http://proyectosimio.wordpress.com/feed/";
 
 	public void updateNoticias(ArrayAdapter<Publicacion> lvAdapter) {
-
+		AsyncConector conector = new AsyncConector(lvAdapter, URL);
 	}
 
 }
