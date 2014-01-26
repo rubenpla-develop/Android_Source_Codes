@@ -14,7 +14,6 @@ public class ConectorHttpXML {
 	private String url;
 
 	public ConectorHttpXML(String url) {
-		super();
 		this.url = url;
 	}
 
@@ -48,6 +47,8 @@ public class ConectorHttpXML {
 				} else if (xpp.getName().equalsIgnoreCase("title")
 						&& insideItem) {
 					headline = xpp.nextText();
+				} else if (xpp.getName().equalsIgnoreCase("link") && insideItem) {
+					link = xpp.nextText();
 				}
 			} else if (event == XmlPullParser.END_TAG
 					&& xpp.getName().equalsIgnoreCase("item")) {

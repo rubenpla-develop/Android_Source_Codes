@@ -2,7 +2,10 @@ package com.lucky4all.xml_example;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
@@ -38,8 +41,13 @@ public class MainActivity extends Activity implements OnItemClickListener {
 
 	@Override
 	public void onItemClick(AdapterView<?> adapter, View v, int pos, long id) {
-		// TODO Auto-generated method stub
+		// Recuperamos el link de la publicación seleccionada.
+		String link = lvAdapter.getItem(pos).getLink();
+		
+		Log.i("Error", "link: " + link + " pos: " + pos);
 
+		Intent i = new Intent(Intent.ACTION_VIEW);
+		i.setData(Uri.parse(link));
+		startActivity(i);
 	}
-
 }
