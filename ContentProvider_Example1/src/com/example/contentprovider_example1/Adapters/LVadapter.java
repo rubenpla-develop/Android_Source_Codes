@@ -36,7 +36,7 @@ public class LVadapter extends ArrayAdapter<Cliente> {
 
 			holder = new HolderView();
 			holder.txtNombre = (TextView) convertView
-					.findViewById(R.id.textView1);
+					.findViewById(R.id.txtOpcion);
 			holder.txtEmail = (TextView) convertView
 					.findViewById(R.id.textView2);
 
