@@ -80,6 +80,13 @@ public class MainActivity extends Activity implements OnClickListener {
 			txtTitulo = (TextView) miDialog.findViewById(R.id.txtOpcion);
 			txtResult = (TextView) miDialog.findViewById(R.id.txtContent);
 			btnAceptar = (Button) miDialog.findViewById(R.id.btnAceptar);
+			btnAceptar.setOnClickListener(new OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					miDialog.cancel();
+				}
+			});
+
 			if (c.moveToFirst()) {
 				do {
 					nombre = c
@@ -93,13 +100,6 @@ public class MainActivity extends Activity implements OnClickListener {
 			txtResult.setText(resultados);
 			Log.i("debug", resultados);
 			miDialog.show();
-			btnAceptar.setOnClickListener(new OnClickListener() {
-				@Override
-				public void onClick(View v) {
-					miDialog.cancel();
-				}
-
-			});
 
 		case (R.id.button2):
 			ContentValues values = new ContentValues();
@@ -113,8 +113,8 @@ public class MainActivity extends Activity implements OnClickListener {
 
 		case (R.id.button3):
 
-			content_resolver.delete(ClientesProvider.CONTENT_URI, ColumnasTabla.NOMBRE
-					+ " = 'ClienteN'", null);
+			content_resolver.delete(ClientesProvider.CONTENT_URI,
+					ColumnasTabla.NOMBRE + " = 'ClienteN'", null);
 
 		}
 

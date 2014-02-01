@@ -2,10 +2,10 @@ package com.example.contentprovider_example1.utils;
 
 import java.util.ArrayList;
 
+import android.database.Cursor;
+
 import com.example.contentprovider_example1.DataBase.ColumnasTabla;
 import com.example.contentprovider_example1.models.Cliente;
-
-import android.database.Cursor;
 
 public class CursorCollection {
 
