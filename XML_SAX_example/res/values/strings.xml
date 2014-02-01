@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XML_SAX_example</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="http_www_europapress_es_rss_rss_aspx">http://www.europapress.es/rss/rss.aspx</string>
+    <string name="url">http://www.europapress.es/rss/rss.aspx</string>
+
+</resources>
