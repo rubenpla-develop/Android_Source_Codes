@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lista_clientes>
+    <record
+        nombre = "Clientes 1"
+        email = "cliente1@mail.com" />
+    <record
+        nombre = "Clientes 2"
+        email = "cliente2@mail.com" />
+    <record
+        nombre = "Clientes 3"
+        email = "cliente3@mail.com" />
+    <record
+        nombre = "Clientes 4"
+        email = "cliente4@mail.com" />
+    <record
+        nombre = "Clientes 5"
+        email = "cliente5@mail.com" />
+    
+
+    
+</lista_clientes>
