@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Geolocation_Basic_Example</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tgl_GPS">GPS</string>
+    <string name="tgl_Network">Network</string>
+    <string name="tgl_Passive">Passive</string>
+
+</resources>
