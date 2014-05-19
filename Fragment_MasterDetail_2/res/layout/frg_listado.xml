@@ -1,0 +1,8 @@
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragmentListado"
+        android:name="com.lucky4all.fragment_masterdetail_2.fragments.FragmentListado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+

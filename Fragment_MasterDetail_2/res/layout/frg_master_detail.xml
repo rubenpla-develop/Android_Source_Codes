@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle" >
+
+    <fragment
+        android:id="@+id/fragmentListado"
+        android:name="com.lucky4all.fragment_masterdetail_2.fragments.FragmentListado"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="30" />
+
+    <FrameLayout
+        android:id="@+id/frame_container_detalle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="70" />
+
+</LinearLayout>
